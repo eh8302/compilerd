@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Runner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Online Code Runner</h1>
+        <textarea id="code" class="code-input" placeholder="Write your code here..."></textarea>
+        <div class="controls">
+            <select id="language" class="dropdown">
+                <option value="cpp">C++</option>
+                <option value="java">Java</option>
+                <option value="python3">Python</option>
+                <!-- Add more languages as needed -->
+            </select>
+            <button id="run" class="run-button">Run Code</button>
+        </div>
+        <h2>Output</h2>
+        <div id="output-box" class="output-box">
+            <pre id="output" class="output"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
